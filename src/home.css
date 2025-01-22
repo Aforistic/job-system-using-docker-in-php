@@ -1,0 +1,416 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  flex-wrap: wrap;
+
+
+}
+
+.container {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(49, 49, 235);
+}
+
+.navigation {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  margin: 7px 10px;
+  overflow: y;
+
+
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-family: Arial;
+  font-weight: 50px;
+  padding-bottom: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  font-size: medium;
+  color: white;
+
+}
+
+a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+.nav {
+  width: 90%;
+  height: 60px;
+
+}
+
+.job_heading {
+  width: 700px;
+  height: 250px;
+  color: white;
+  font-size: 22px;
+  margin: 80px 200px;
+  text-align: center;
+  font-family: '"EB Garamond", ui-serif, Georgia';
+}
+
+.sub_jobs {
+  width: 90%;
+  height: 900px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 60px;
+  text-align: center;
+  border-bottom: solid #efefefef;
+}
+
+.containA {
+  width: 92%;
+  height: 1000px;
+  /* height: 1450px; */
+
+}
+
+input {
+  width: 150px;
+  margin-top: 6px;
+  margin-left: 10px;
+  padding: 5px 20px;
+  height: 30px;
+  gap: 3px;
+
+}
+
+.ser:hover {
+  background-color: blueviolet;
+  color: white;
+
+}
+
+.big-btn,
+.ser {
+  width: 190px;
+  height: 40px;
+  margin-top: 6px;
+  margin-left: 8px;
+  padding: 5px 20px;
+
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border: hidden;
+  background-color: rgb(57, 57, 218);
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.3px;
+  background-color: green;
+  color: black;
+  transition-duration: 500ms;
+  text-decoration: none;
+
+}
+
+.head-btn>a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.btn {
+  width: 190px;
+  height: 40px;
+  margin-top: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 5px 30px;
+}
+
+.centralise {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.chil-input {
+  width: 120px;
+  height: 40px;
+  margin: 5px;
+}
+
+.others>input {
+  width: 120px;
+  margin-right: 6px;
+}
+
+.change-btn {
+  margin-left: 7px;
+}
+
+.card {
+  width: 1000px;
+  height: 150px;
+  margin: 30px;
+  display: flex;
+  padding: 20PX;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 4px solid #efefef;
+}
+
+img {
+  margin: 4px 10px;
+  border-radius: 50%;
+}
+
+.type {
+  margin: 0px 10px;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+  font-size: 12px;
+  font-style: italic;
+  font-family: "Montserrat", ui-sans-serif, system-ui;
+}
+
+a {
+  font-family: "EB Garamond", ui-serif, Georgia;
+}
+
+h5 {
+  font-weight: 0px;
+  font-size: 13px;
+  font-family: "Montserrat", ui-sans-serif, system-ui;
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: 600px;
+  font-family: "EB" Garamond, ui-serif, Georgia;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: EB Garamond, ui-serif, Georgia;
+}
+
+.companies>a,
+.a {
+  font-size: 13px;
+  font-family: "Montserrat", ui-sans-serif, system-ui;
+}
+
+.a {
+  font-size: 10px;
+}
+
+.containB {
+  margin-top: 500px;
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+}
+
+.footer {
+
+  width: 80%;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 20px;
+}
+
+.tit {
+  width: 200px;
+  height: 100px;
+}
+
+.tit p>a {
+  color: black;
+  font-size: 13px;
+  color: grey;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .container {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(49, 49, 235);
+  }
+
+  .arrange {
+    margin-top: 5px;
+
+  }
+
+  .navigation {
+    width: 95%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 7px 10px;
+    overflow-y: visible;
+    padding-right: 20px;
+    gap: 6px;
+
+  }
+
+  .others>input {
+    width: 360px;
+    margin-left: 13px;
+    margin-top: 10px;
+
+  }
+
+  .sub_jobs {
+    width: 100%;
+    height: 1650px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    border-bottom: solid #efefefef;
+    flex-wrap: wrap;
+  }
+
+  .chil-input,
+  .change-btn {
+    width: 360px;
+    height: 30px;
+    margin: 10px;
+
+
+
+  }
+
+  .job_heading {
+    width: 420px;
+    height: 250px;
+    color: white;
+    font-size: 18px;
+    margin: 80px 15px;
+    text-align: center;
+    font-family: '"EB Garamond", ui-serif, Georgia';
+  }
+
+  .card {
+    width: 400px;
+    height: 200px;
+    flex-wrap: wrap;
+    margin: 5px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 4px solid #efefef;
+
+  }
+
+  .centralise {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+  }
+
+  input {
+    width: 360px;
+    margin-top: 6px;
+    margin-left: 2px;
+    padding: 5px 10px;
+    height: 30px;
+    display: block;
+
+  }
+
+  .change-btn {
+    margin-left: 7px;
+  }
+
+  img {
+
+    height: 50px;
+    margin: 4px 10px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  button {
+
+    width: 70px;
+    height: 30px;
+    border: hidden;
+    background-color: rgb(57, 57, 218);
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    margin-right: 80px;
+  }
+
+  .companies>h2 {
+    width: 150px;
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  .containB {
+    margin-top: 1100px;
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  
+  }
+
+}

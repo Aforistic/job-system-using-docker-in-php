@@ -1,0 +1,27 @@
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crud-app
+spec:
+  replicas: 1  # Number of replicas (you can scale it as needed)
+  selector:
+    matchLabels:
+      app: dockerjobsystem-app
+  template:
+    metadata:
+      labels:
+        app: dockerjobsystem-app
+      containers:
+        - name: dockerjobsystem-app
+          image: aforistic/dockerjobsystem-app:latest  # Replace with your Docker Hub image
+          ports:
+            - containerPort: 80  # Your container's internal port (Apache is listening on 80)
+          volumeMounts:
+            - mountPath: /var/www/html
+              name: html-volume  # Mounting persistent storage
+      volumes:
+        - name: html-volume
+          persistentVolumeClaim:
+            claimName: html-pvc  # This should match the PVC defined below

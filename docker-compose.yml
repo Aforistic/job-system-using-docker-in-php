@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8484:80"
+    depends_on:
+      - mysql
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: afore
+      MYSQL_DATABASE: jobsystem
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:

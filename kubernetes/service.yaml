@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: crud-service
+spec:
+  selector:
+    app: crud-app
+  ports:
+    - protocol: TCP
+      port: 8484  # The port to be exposed to the outside world
+      targetPort: 80  # The internal port inside the container
+  type: LoadBalancer  # Change to NodePort for local testing
